@@ -1,0 +1,238 @@
+#grillaUno{
+    display:grid;
+    height: 100%;
+    grid-template-rows:  400px 350px 350px;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-areas: "a1 a2 a2"
+                         "a3 a3 a4"
+                         "a5 a6 a4";
+    background-color: rgb(89, 7, 7);
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+#hijoUno{
+    background-color: white;
+    grid-area:a1;    
+}
+
+#hijoDos{
+    background-color: white;
+    grid-area:a6;
+    image-orientation: initial;
+}
+
+#hijoTres{
+    background-color: white;
+    grid-area:a2;
+}
+
+#hijoCuatro{
+    background-color: white;
+    grid-area: a5;
+}
+#hijoCinco{
+    background-color: white;
+    grid-area: a4;
+}
+#hijoSeis{
+    background-color: white;
+    grid-area: a6;
+}
+
+#hijoSiete{
+    background-color: white;
+    grid-area: a3;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+@media screen and (max-width:1200px){
+    .lUno{
+        background-color: black;
+    }
+    .letraDos{
+        background-color: black;
+    }
+    #grillaUno{
+        background-color: black;
+    }
+    #grillaDos{
+        background-color: black;
+    }
+    #grillaTres{
+        background-color: black;
+    }
+    .tipodeletra{
+        background-color: black;
+    }
+
+}
+@media  screen and (max-width:480px) {
+    .lUno{
+        background-color: blueviolet;
+    }
+    .letraDos{
+        background-color: blueviolet;
+    }
+    #grillaUno{
+        background-color: blueviolet;
+    }
+    #grillaDos{
+        background-color: blueviolet;
+    }
+    #grillaTres{
+        background-color: blueviolet;
+    }
+    .tipodeletra{
+        background-color: blueviolet;
+    }
+}
+@media  screen and (max-width:320px) {
+    .lUno{
+        background-color: blue;
+    }
+    .letraDos{
+        background-color: blue;
+    }
+    #grillaUno{
+        background-color: blue;
+    }
+    #grillaDos{
+        background-color: blue;
+    }
+    #grillaTres{
+        background-color: blue;
+    }
+    .tipodeletra{
+        background-color: blue;
+    }
+}
+.letraDos{
+    font-family: "Unna";
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+.lUno{
+    font-family: "Unna";
+    font-size: 50px;
+    background-color: rgb(89, 7, 7);
+    color: white;
+}
+#grillaDos{
+display:grid;
+height: 100%;
+grid-template-rows:  400px 350px 350px;
+grid-template-columns: 30% 40% 30%;
+grid-template-areas: "a1 a2 a2"
+                     "a3 a3 a4"
+                     "a5 a6 a4";
+background-color: rgb(89, 7, 7);
+column-gap: 40px;
+row-gap: 40px;
+}
+
+#hijoOcho{
+background-color: white;
+grid-area:a1;
+height: 98%;    
+}
+
+#hijoNueve{
+background-color: white;
+grid-area:a6;
+image-orientation: initial;
+}
+
+#hijoDiez{
+background-color: white;
+grid-area:a2;
+height: 98%;
+}
+
+#hijoOnce{
+background-color: white;
+grid-area: a5;
+}
+
+#hijoDoce{
+background-color: white;
+grid-area: a4;
+}
+
+#hijoTrece{
+background-color: white;
+grid-area: a6;
+height: 98%;
+}
+
+#hijoCatorce{
+background-color: white;
+grid-area: a3;
+}
+#grillaTres{
+    display:grid;
+    height: 100%;
+    grid-template-rows:  400px 350px 350px;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-areas: "a1 a2 a2"
+                         "a3 a3 a4"
+                         "a5 a6 a4";
+    background-color: rgb(89, 7, 7);
+    column-gap: 40px;
+    row-gap: 40px;
+    }
+    
+    #hijoQuince{
+    background-color: white ;
+    grid-area:a1;
+    height: 75%; 
+    }
+    
+    #hijoDieciseis{
+    background-color: white;
+    grid-area:a6;
+    image-orientation: initial;
+    }
+    
+    #hijoDiecisiete{
+    background-color: white;
+    grid-area:a2;
+    }
+    
+    #hijoDieciocho{
+    background-color: white;
+    grid-area: a5;
+    }
+    
+    #hijoDiecinueve{
+    background-color: white;
+    grid-area: a4;
+    }
+    
+    #hijoVeinte{
+    background-color: white;
+    grid-area: a6;
+    }
+    
+    #hijoVeintiuno{
+    background-color: white;
+    grid-area: a3;
+    }
+    footer{
+        background-color: rgb(89, 7, 7);
+    }
+.tipodeletra{
+    font-family: "Unna";
+    color: white;
+}
+header{
+    background-color: rgb(89, 7, 7);
+}
+
+.otraletra{
+    color: white;
+    font-family: "Unna";
+}

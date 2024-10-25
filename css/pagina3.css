@@ -1,0 +1,58 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.card {
+    display: flex;
+    background-color: rgb(89, 7, 7);
+    border: 6px;
+    padding: 8px;
+    margin: 8px;
+
+}
+.content {
+ flex-wrap: 1;
+ background-color: rgb(89, 7, 7);
+}
+.container {
+    background-color: rgb(89, 7, 7);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.letraTres{
+    font-family: "Unna";
+    text-align: center;
+    font-size: 100px;
+}
+main{
+    background-color: rgb(89, 7, 7);
+}
+footer{
+    background-color: rgb(89, 7, 7);
+}
+.tipodeletra{
+font-family: "Unna";
+color: white;
+}
+.otrocolor{
+font-family: "Unna";
+color: white;
+background-color: rgb(89, 7, 7);
+text-align: center;
+}
+.tipoletra{
+font-family: "Unna";
+color: white;
+background-color: rgb(89, 7, 7);
+text-align: center;
+font-size: 100px;
+}
+header{
+    background-color: rgb(89, 7, 7);
+}
+.imagen{
+ width: 50%;
+ height: 60%;
+}
